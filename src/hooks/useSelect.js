@@ -6,7 +6,7 @@ const useSelect = (stateInitial, options) => {
 
     const SelectNews = () => (
         <select 
-            className='browser-default'
+            className="browser-default"
             value={category}
             onChange={ e => saveSelect(e.target.value)}
             >

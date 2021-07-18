@@ -29,11 +29,11 @@ const Form = ({saveCategory}) => {
                 >
                     <h2 className={styles.heading}>Find News By Category</h2>
                     <SelectNews />
-                    <div className='input-field col s12'>
+                    <div className="input-field col s12">
                         <input 
-                            type='submit'
+                            type="submit"
                             className={`btn-large amber darken-2 ${styles.btn_block}`}
-                            value='Search'
+                            value="Search"
                         />
                     </div>
                 </form>

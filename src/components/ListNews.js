@@ -4,7 +4,7 @@ import Article from './Article';
 const Listnews = ({listNews}) => {
 
     return ( 
-        <div className='row'>
+        <div className="row">
             {listNews.map(article => (
                 <Article 
                     key={article.url} 

@@ -27,15 +27,13 @@ function App() {
   return (
     <Fragment>
         <Header 
-            title='News search engine'
+            title="News search engine"
           />
-          <div className ='container white'>
+          <div className ="container white">
             <Form saveCategory={saveCategory} />
             <Listnews listNews={news}/>
           </div>
-
     </Fragment>
-      
   );
 }
 
