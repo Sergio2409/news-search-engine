@@ -7,5 +7,5 @@ const Header = ({title}) => {
         </nav>
      );
 }
- 
+
 export default Header;
